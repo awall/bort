@@ -1,0 +1,1 @@
+dmd src/main.d -od=bin -of=bort.exe
