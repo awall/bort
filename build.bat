@@ -1,1 +1,1 @@
-dmd src/main.d -od=bin -of=bort.exe
+dmd -m64 src/main -od=bin -of=bort.exe -L-Subsystem:Windows user32.lib
